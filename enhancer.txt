@@ -1,5 +1,9 @@
 -- [[ SCRIPT PROTECTED UNDER MIT LICENSE DO NOT CLAIM AS ORIGINAL OWNER. ]] --
 
+--[[ Allowed: Modifying and credit yourself as modder.
+              Distribute, sharing is caring :)
+              
+]]
 
 local function SetLightingEngine(yes)
     local scs, _ = pcall(function()
