@@ -1002,6 +1002,7 @@ G2L["63"]["BorderSizePixel"] = 4;
 G2L["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["63"]["TextSize"] = 15;
+G2L["63"].Active = true;
 G2L["63"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["Size"] = UDim2.new(0, 410, 0, 30);
 G2L["63"]["Text"] = [[Synapse X - Script Hub]];
