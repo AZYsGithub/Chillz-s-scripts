@@ -997,6 +997,7 @@ G2L["62"]["Position"] = UDim2.new(0.6677603721618652, 0, 7.790436744689941, 0);
 G2L["63"] = Instance.new("TextLabel", G2L["5b"]);
 G2L["63"]["TextWrapped"] = true;
 G2L["63"]["ZIndex"] = 3;
+G2L["63"].Draggable = true;
 G2L["63"]["BorderSizePixel"] = 4;
 G2L["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
