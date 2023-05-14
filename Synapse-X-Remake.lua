@@ -33,7 +33,7 @@ G2L["2"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["2"]["Size"] = UDim2.new(0, 36, 0, 36);
 G2L["2"]["Name"] = [[FloatingIcon]];
 G2L["2"].Visible = false
-G2L["2"]["Position"] = UDim2.new(0.5819911956787109, 528, 0.7092568278312683, 180);
+G2L["2"]["Position"] = UDim2.new(0.7019911956787109, 0, 0.7092568278312683, 0);
 
 -- StarterGui.SynapseX.FloatingIcon. 
 G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
