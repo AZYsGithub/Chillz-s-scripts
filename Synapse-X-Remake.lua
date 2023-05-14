@@ -892,7 +892,7 @@ G2L["5b"]["Active"] = true;
 G2L["5b"]["BorderSizePixel"] = 0;
 G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(67, 67, 67);
 G2L["5b"]["Size"] = UDim2.new(0, 411, 0, 31);
-G2L["5b"]["Position"] = UDim2.new(0, 13, 0, 302);
+G2L["5b"]["Position"] = UDim2.new(0, 13, 0, 13);
 G2L["5b"]["Visible"] = false;
 G2L["5b"]["Name"] = [[ScriptHubMenu]];
 
