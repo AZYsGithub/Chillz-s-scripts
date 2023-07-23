@@ -1659,7 +1659,7 @@ function UILIB.newTab(name, img)
 		Trigger.MouseButton1Down:Connect(Update)
 
 		UIS.InputEnded:Connect(function(input)
-			if input.UserInputType ==  Enum.UserInputType.MouseButton1 then
+			if input.UserInputType ==  Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 				MouseDown = false
 			end
 		end)
