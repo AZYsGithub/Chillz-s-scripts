@@ -17,6 +17,7 @@ end
 88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
 ]=]
+local success, err = pcall(function()
 local HttpService = game:GetService("HttpService")
 local response = game:HttpGet("https://api.whatexploitsare.online/status")
 local data = HttpService:JSONDecode(response)
@@ -25,6 +26,10 @@ for _, item in pairs(data) do
   if item.Synapse then
     synversion = item.Synapse.exploit_version
   end
+end
+end)
+if not success then
+synversion = "2.23.11"
 end
 
 -- Instances: 150 | Scripts: 8 | Modules: 4
