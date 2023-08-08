@@ -1,6 +1,13 @@
--- Synapse X Remake, Make by Chillz#0348 (formerly as AZY#0348)
+-- Synapse X Remake, Make by Chillz#0348 (formerly as AZY#0348
 
-
+if not isfile("qwerty.warn") then
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "#FuckProductions", -- Required
+	Text = [[.gg/productions Owner is evil, he's terminated Delta's Server and stole deltaex vanity, don't support this guy. Also he's a paster just pasting scripts into Discord UI Library and named it as "ScriptHub V2".]], -- Required
+	Icon = "rbxassetid://1234567890" -- Optional
+})
+writefile("qwerty.warn")
+end
 
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
