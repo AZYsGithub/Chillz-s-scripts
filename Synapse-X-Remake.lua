@@ -1,36 +1,25 @@
 -- Synapse X Remake, Make by Chillz#0348 (formerly as AZY#0348
 
-if not isfile("qwerty.warn") then
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "#FuckProductions", -- Required
-	Text = [[.gg/productions Owner is evil, he's terminated Delta's Server and stole deltaex vanity, don't support this guy. Also he's a paster just pasting scripts into Discord UI Library and named it as "ScriptHub V2".]], -- Required
-	Icon = "rbxassetid://1234567890" -- Optional
-})
-writefile("qwerty.warn")
-end
-
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
 88      88    88    88            odD'      88      88    88 88ooo88 
 88  ooo 88    88    88          .88'        88      88    88 88~~~88 
 88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+ Y888P ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
 ]=]
-local success, err = pcall(function()
-local HttpService = game:GetService("HttpService")
-local response = game:HttpGet("https://api.whatexploitsare.online/status")
-local data = HttpService:JSONDecode(response)
+local synversion = "2.23.11"
+pcall(function()
+    local HttpService = game:GetService("HttpService")
+    local response = game:HttpGet("https://api.whatexploitsare.online/status")
+    local data = HttpService:JSONDecode(response)
 
-for _, item in pairs(data) do
-  if item.Synapse then
-    synversion = item.Synapse.exploit_version
-  end
-end
+    for _, item in pairs(data) do
+        if item.Synapse then
+            synversion = item.Synapse.exploit_version
+	end
+    end
 end)
-if not success then
-synversion = "2.23.11"
-end
 
 -- Instances: 150 | Scripts: 8 | Modules: 4
 local G2L = {};
