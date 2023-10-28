@@ -1,15 +1,9 @@
--- Synapse X Remake, Make by Chillz#0348 (formerly as AZY#0348
+-- Synapse X Remake made by @chillz_azy (yt)
 
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
- Y888P ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
-]=]
 local synversion = "2.23.11"
-pcall(function()
+
+-- this shit function makes my script fucked
+--[[pcall(function()
     local HttpService = game:GetService("HttpService")
     local response = game:HttpGet("https://api.whatexploitsare.online/status")
     local data = HttpService:JSONDecode(response)
@@ -19,7 +13,7 @@ pcall(function()
             synversion = item.Synapse.exploit_version
 	end
     end
-end)
+end)]]
 
 -- Instances: 150 | Scripts: 8 | Modules: 4
 local G2L = {};
