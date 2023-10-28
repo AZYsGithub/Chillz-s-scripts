@@ -1,16 +1,4 @@
--- [[ SCRIPT PROTECTED UNDER MIT LICENSE DO NOT CLAIM AS ORIGINAL OWNER. ]] --
-
---[[ Allowed: Modifying and credit yourself as modder.
-              Distribute, sharing is caring :)
-              Private use is allowed cuz yes, this script are free :)
-              Commercial use, such as promoting your modified or original one.
-              Using samples at this code (it's allowed without credit if it's exploit func or lighing stuffs)
-     Probihited: Liability, such as claiming you as original owner.
-
-     All simple, you can use, mod it, or what, just give credit at least at comment at the code :)
-]]
-
--- Credit: AZY#0348 (Original)
+-- ok no longer license protection, it just bullshit anyways
 
 local function SetLightingEngine(yes)
     local scs, _ = pcall(function()
