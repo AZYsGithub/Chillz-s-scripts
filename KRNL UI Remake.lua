@@ -1,11 +1,3 @@
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "#FuckProductions", -- Required
-	Text = [[.gg/productions Owner is Evil, he's terminated Delta's Server and stole deltaex vanity, don't support this guy. Also he's a paster just pasting scripts into Discord UI Library and named it as "ScriptHub V2".]], -- Required
-	Icon = "rbxassetid://1234567890" -- Optional
-})
-
-
 local KRNL = Instance.new("ScreenGui")
 local KrnlGUI = Instance.new("Frame")
 local FileButton = Instance.new("TextButton")
